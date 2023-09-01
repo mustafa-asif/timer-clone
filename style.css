@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-style: italic;
+    
+    
+}
+
+body{
+    background-image: url(https://getwallpapers.com/wallpaper/full/2/d/9/940328-dark-blue-abstract-wallpaper-3456x1944-images.jpg );
+    
+}
+
+.flex{
+    
+    
+    height: 100vh;
+    
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
+    
+
+    display: flex;
+}
+
+.heading{
+    color: blue;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.watch{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px  ;
+    
+    
+}
+input[type="number"]
+{
+    width: 50px;
+}
+
+.input{
+    
+    border: none;
+    color: antiquewhite;
+    
+    
+    
+ padding-bottom: 10px ;
+ background-color: transparent;
+ font-size: large;
+
+    display: flex;
+}
+
+.watch>div>p{
+    text-align: center;
+    padding-right:40px ;
+    color: blue;
+    font-size: x-large;
+    
+}
+
+.pd{
+    padding-right: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border: 2px solid rgb(7, 7, 7);
+    border-radius: 20%;
+    background-color:blue;
+    color: antiquewhite;
+    box-shadow: 5px 5px 12px black;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>timer</title>
+</head>
+<body>
+<div class="flex">
+    <div class="heading">
+        <h1>Timer</h1>
+    </div>
+    <div class="watch">
+        <div class="pd">
+            <input type="number" name="number" id="hour" class="input" placeholder="00" min="0" max="24" />
+            <p>Hr</p>
+        </div>
+        <div class="pd">
+            <input type="number" name="number" class="input" id="min" placeholder="00 " min="0" max="60" step="5"  />
+            
+            <p>M</p>
+        </div>
+        <div class="pd">
+            <input type="number" class="input" name="number" id="sec" placeholder="00" min="0" max="59" step="5" />
+            <p>S</p>
+        </div>
+        
+    </div>
+    <div  id="button">
+        <button class="btn" onclick="start()">START</button>
+        <button class="btn" onclick="stop()">STOP</button>
+        <button class="btn" onclick="reset()">RESET</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
